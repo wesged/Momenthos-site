@@ -1,0 +1,46 @@
+/* Colors from the app's Design/Theme.swift. */
+:root {
+  --vp-c-bg: #f2eee6;          /* appBg */
+  --vp-c-bg-alt: #f4f0e7;      /* appSurface2 */
+  --vp-c-bg-soft: #eae4d8;     /* appSurface3 */
+  --vp-c-text-1: #2a2f37;      /* appInk */
+  --vp-c-text-2: #5f5d59;      /* appInk2 */
+  --vp-c-text-3: #98938a;      /* appInk3 */
+  --vp-c-divider: #e0d9cc;
+  --vp-c-brand-1: #4e7491;     /* appAccent */
+  --vp-c-brand-2: #3b586f;     /* appAccentDeep */
+  --vp-c-brand-3: #4e7491;
+  --vp-c-brand-soft: rgba(78, 116, 145, 0.14);
+  --vp-c-gold: #a9854c;        /* appGold */
+  --vp-font-family-base: 'Newsreader', Georgia, serif;
+  --vp-home-hero-name-color: var(--vp-c-text-1);
+}
+
+.dark {
+  --vp-c-bg: #1e2023;
+  --vp-c-bg-alt: #2a2c30;
+  --vp-c-bg-soft: #323539;
+  --vp-c-text-1: #ece9e0;
+  --vp-c-text-2: #b0aba2;
+  --vp-c-text-3: #878279;
+  --vp-c-divider: #3a3d42;
+  --vp-c-brand-1: #93b2c9;
+  --vp-c-brand-2: #b6ccdc;
+  --vp-c-brand-3: #93b2c9;
+  --vp-c-brand-soft: rgba(147, 178, 201, 0.16);
+  --vp-c-gold: #cba86a;
+}
+
+.VPFeature {
+  background-color: #fcfaf6;   /* appSurface */
+}
+
+.dark .VPFeature {
+  background-color: #2a2c30;
+}
+
+.vp-doc p,
+.vp-doc li {
+  font-size: 17px;
+  line-height: 1.65;
+}
