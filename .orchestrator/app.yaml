@@ -1,0 +1,23 @@
+name: momenthos-site
+description: Support, privacy policy and user guide for the Momenthos iOS app (VitePress, GitHub Pages).
+default_branch: main
+tasks:
+  label: ready
+  feedback_label: feedback
+agent:
+  preferred: claude
+paths:
+  off_limits: [".github/workflows/**"]
+docs:
+  current_state: [README.md]
+commands:
+  install: npm ci
+  check: npm run build
+  dev: npm run dev -- --port 5173 --host 127.0.0.1
+screenshots:
+  base_url: http://127.0.0.1:5173
+  routes: ["/Momenthos-site/", "/Momenthos-site/support", "/Momenthos-site/privacy"]
+preview:
+  command: npm run dev -- --port $PORT --host $HOST
+  ready_path: /Momenthos-site/
+# No deploy: pushing to main publishes to GitHub Pages (.github/workflows/deploy.yml).
