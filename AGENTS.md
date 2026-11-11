@@ -10,4 +10,5 @@ Never edit docs/vision.md or docs/roadmap.md: only the user accepts direction an
 - Apply no labels to the Project or its Tasks.
 - Ask the user product questions: what, why, scope and what is out. Decide technical details from the code and record them as Assumptions with confidence, instead of leaving open technical questions.
 - Filing issues is not approval. They arrive as proposals and count as work only when the user accepts them in Orchestrator. Never start implementing merely because issues were filed.
+- A vision proposal is an unlabelled issue whose body has `## Vision change` with one fenced full-replacement block per section, each preceded by a line naming Why, What or How. Several sections may change in one proposal; do not edit `docs/vision.md` directly.
 <!-- orchestrator:handoff:end -->
