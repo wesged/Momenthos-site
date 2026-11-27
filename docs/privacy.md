@@ -41,6 +41,10 @@ Removing someone from a shared shelf (or from its folder) stops future changes f
 
 **Writing suggestions.** On devices that support Apple Intelligence, the app can suggest a cleaned-up version of a moment you're writing. This uses Apple's on-device model. Your text is not sent to me.
 
+## Tips
+
+Momenthos is free. You can leave an optional tip in Settings. Tips are In-App Purchases handled entirely by Apple: I don't receive your name, payment details or any other information about you, only Apple's usual sales reports. Tips unlock nothing, and the app doesn't record them.
+
 ## Children
 
 Momenthos is meant for adults keeping records of their family, which often includes children. The app does not collect information about anyone. What you write about your family stays on your device unless you share it as described above.
