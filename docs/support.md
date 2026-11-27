@@ -38,4 +38,16 @@ Shelf keys stay on the device and aren't in backups. Get the key again from anot
 
 ### Does Momenthos cost anything?
 
-No, it's free.
+No, it's free, with no ads. If you'd like to support it, you can leave an optional tip in Settings → Support Momenthos. Tips don't unlock anything.
+
+### Do I need a Google account?
+
+Only for family shelves, which sync through Google Drive. Everything else works without signing in to anything. Each person on a shelf uses their own Google account, and Momenthos can only see the files it creates or that you pick.
+
+### How much Google storage does a family shelf use?
+
+Very little. Moments are short encrypted text files, and the moments you add are stored in your own Drive. If your Google storage is full, Momenthos says so and keeps your changes until there's room.
+
+### My family shelf can't find the shelf file when I join.
+
+In Google's picker, search for "Momenthos shelf" or look under **Shared with me**. Make sure you're signed in with the Google account the invitation was sent to. See [Family shelves](/guide/family-shelves).
