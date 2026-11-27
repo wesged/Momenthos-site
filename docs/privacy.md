@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**Effective date:** October 14, 2026
+**Effective date:** November 27, 2026
 
 Momenthos is made by Wesley Geddes ("I", "me"). This policy explains what happens to the information you put into the Momenthos app for iPhone and iPad.
 
 ## Summary
 
-Momenthos does not collect your data. There is no account, no sign-in, no analytics, no advertising and no tracking. I don't run any servers for the app, and nothing you write is sent to me.
+Momenthos does not collect your data. There is no Momenthos account, no analytics, no advertising and no tracking. I don't run any servers for the app, and nothing you write is sent to me. The only sign-in is optional: your own Google account, if you share a family shelf through Google Drive.
 
 ## Information stored on your device
 
@@ -24,11 +24,14 @@ Momenthos only moves your information off your device when you ask it to.
 
 **Packages.** When you send moments as a package, the app encrypts them with a passphrase you choose and hands the file to the iOS Share Sheet. You decide where it goes (Messages, Mail, AirDrop, Files and so on). Anyone with the file and the passphrase can read it. Reflections are never included in packages.
 
-**Family shelves.** When you link a shelf to a folder, the app writes encrypted copies of that shelf's moments to the iCloud Drive folder you choose. The content is encrypted with a shelf key. People who have access to the folder and the shelf key can read it. Shelf keys are stored only in your device's Keychain and are not included in backups. Apple stores the folder under its iCloud terms and privacy policy. Reflections are never included in family shelves.
+**Family shelves.** When you share a shelf, the app writes encrypted copies of that shelf's moments to cloud storage you choose. The content is encrypted with a shelf key before it leaves your device. People who have the shelf key and access to the shelf's files can read it. Shelf keys are stored only in your device's Keychain and are not included in backups. Reflections are never included in family shelves.
+
+- **Google Drive.** If you sign in with Google, the app asks only for permission to see and change files it creates or that you pick (Google's `drive.file` permission). It cannot see anything else in your Drive. It creates a "Momenthos" folder in your Drive holding the shelf's encrypted files, makes those files viewable by anyone with their link so family members' apps can download them, and shares the shelf file with the family members you invite by email. Your Google sign-in is kept only in your device's Keychain. The app uses your Google account's email address only to show which account is signed in and, sealed with the shelf key, to show family members who is on the shelf. Data from Google is used only to provide family shelves, is never sent to me, and is never used for advertising. Momenthos's use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. Google stores the files under its own terms and privacy policy. You can sign out in Settings → Shared Shelves, and remove the app's access at myaccount.google.com/permissions.
+- **iCloud Drive.** If you link a shelf to an iCloud Drive folder, Apple stores the folder under its iCloud terms and privacy policy.
 
 **Backups.** When you export a backup, the app creates a JSON file that is **not encrypted**. It can include your reflections if you choose. You decide where to save or send that file.
 
-Removing someone's access to a shared folder stops future changes from reaching them. It cannot remove copies they already have.
+Removing someone from a shared shelf (or from its folder) stops future changes from reaching them. It cannot remove copies they already have.
 
 ## Device features
 
