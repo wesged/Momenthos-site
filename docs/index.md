@@ -24,7 +24,7 @@ features:
   - title: Reflect
     details: Reflect mode takes you through past moments one at a time. Record how a moment felt then and how it feels now. Reflections stay private.
   - title: Share on your terms
-    details: Send moments as a passphrase-protected file, or keep a family shelf in an iCloud Drive folder you choose, encrypted with a key only your family has.
+    details: Send moments as a passphrase-protected file, or keep a family shelf in step through Google Drive, encrypted with a key only your family has.
   - title: Private
     details: No account, no ads and no analytics. Your library is stored on your device.
   - title: Yours to keep
